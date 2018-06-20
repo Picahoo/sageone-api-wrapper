@@ -71,6 +71,7 @@
     <Compile Include="Interfaces\ISalesRepresentativeRequest.cs" />
     <Compile Include="Interfaces\ISupplierInvoiceRequest.cs" />
     <Compile Include="Interfaces\ISupplierRequest.cs" />
+    <Compile Include="Interfaces\ICustomerReturnRequest.cs" />
     <Compile Include="Interfaces\ITaxInvoiceRequest.cs" />
     <Compile Include="Interfaces\ITaxTypeRequest.cs" />
     <Compile Include="Models\AccountBalance.cs" />
@@ -102,6 +103,7 @@
     <Compile Include="Models\Quote.cs" />
     <Compile Include="Models\Supplier.cs" />
     <Compile Include="Models\SupplierInvoice.cs" />
+    <Compile Include="Models\CustomerReturn.cs" />
     <Compile Include="Models\TaxInvoice.cs" />
     <Compile Include="Models\CommercialDocumentLine.cs" />
     <Compile Include="Models\TaxType.cs" />
@@ -138,6 +140,7 @@
     <Compile Include="Requests\SalesRepresentativeRequest.cs" />
     <Compile Include="Requests\SupplierInvoiceRequest.cs" />
     <Compile Include="Requests\SupplierRequest.cs" />
+    <Compile Include="Requests\CustomerReturnRequest.cs" />
     <Compile Include="Requests\TaxInvoiceRequest.cs" />
     <Compile Include="Requests\TaxTypeRequest.cs" />
   </ItemGroup>

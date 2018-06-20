@@ -23,7 +23,7 @@ namespace SageOneApi.Requests
 			var url = string.Format("Account/Get?apikey={0}&companyid={1}", _apiKey, _companyId);
 
 			if (includeSystemAccounts)
-				url = string.Format("Account/GetWithSystemAccounts?apikey={0}&companyid={1}", _apiKey, _companyId);
+				url = string.Format("Account/GetChartofAccounts?apikey={0}&companyid={1}", _apiKey, _companyId);
 
 			if (skip > 0)
 				url += "&$skip=" + skip;

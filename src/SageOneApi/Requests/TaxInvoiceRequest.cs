@@ -26,7 +26,7 @@ namespace SageOneApi.Requests
 			var url = string.Format("TaxInvoice/Get?companyid={0}&includeDetail={1}&includeCustomerDetails={2}&apikey={3}", _companyId, includeDetail.ToString().ToLower(), includeCustomerDetails.ToString().ToLower(), _apiKey);
 
 			if (!string.IsNullOrEmpty(filter))
-				url = string.Format("TaxInvoice/Get?includeDetail={0}&includeCustomerDetails={1}?apikey={2}&companyid={3}&$filter={4}", includeDetail, includeCustomerDetails, _apiKey, _companyId, filter);
+				url += string.Format("&$filter={0}", filter);
 
 			if (skip > 0)
 				url += "&$skip=" + skip;
